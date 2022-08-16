@@ -6,7 +6,7 @@
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="device_xiaomi_juice_Q" remote="darknius20" revision="bootleg" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="device_xiaomi_juice_Q" remote="darknius20" revision="10.staging" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="vendor-xiaomi-juice_Q" remote="darknius20" revision="10.staging" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="DarkLegacy_kernel_citrus" remote="darknius20" revision="protest" clone-depth="1" />
         
