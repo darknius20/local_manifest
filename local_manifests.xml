@@ -2,13 +2,13 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="Night-Raids-Reborn" fetch="https://github.com/Night-Raids-Reborn/" />
+        <remote name="darknius20" fetch="https://github.com/darknius2/" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="Night-Raids-Reborn/device_xiaomi_juice_Q" remote="github" revision="12.1" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="Night-Raids-Reborn/vendor-xiaomi-juice_Q" remote="github" revision="11.0" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="Night-Raids-Reborn/DarkLegacy_kernel_citrus" remote="github" revision="protest" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="darknius2/device_xiaomi_juice_Q" remote="github" revision="bootleg" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="darknius2/vendor-xiaomi-juice_Q" remote="github" revision="10.staging" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="darknius2/DarkLegacy_kernel_citrus" remote="github" revision="protest" clone-depth="1" />
         
         <!-- Prebuilts protonClang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="Night-Raids-Reborn/proton-clang" remote="github" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="darknius2n/proton-clang" remote="github" revision="master" />
 </manifest>
