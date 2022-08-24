@@ -2,7 +2,13 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="darknius20" fetch="https://github.com/darknius20" />
+        <remote name="darknius20"
+                 fetch="https://github.com/darknius20" />
+        <remote name="cosmic"
+		 fetch="https://gitlab.com/GhostMaster69-dev" />
+        
+        <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="Cosmic-Clang" remote="cosmic" revision="master" clone-depth="1" />
         
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="darknius20/android_device_xiaomi_juice" remote="github" revision="12.1" clone-depth="1" />
