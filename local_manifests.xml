@@ -5,15 +5,9 @@
         <remote name="darknius20" fetch="https://github.com/darknius20" />
         <remote name="cosmic" fetch="https://gitlab.com/GhostMaster69-dev" />
         
-        <!-- remove -->
-        <remove-project name="RiceDroid/android_vendor_rice" />
-        
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="darknius20/android_device_xiaomi_juice" remote="github" revision="rice12" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="darknius20/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="darknius20/lime" remote="github" revision="R-S" clone-depth="1" />
-        
-        <!-- fork -->
-        <project path="vendor/lineage" name="darknius20/android_vendor_rice" remote="github" revision="twelve" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
         
 </manifest>
