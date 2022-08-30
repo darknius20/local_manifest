@@ -15,8 +15,5 @@
         
         <!-- fork -->
         <project path="vendor/lineage" name="darknius20/android_vendor_rice" remote="github" revision="twelve" clone-depth="1" />
-
-        <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="darknius20/proton-clang" remote="github" revision="master" clone-depth="1" />
         
 </manifest>
