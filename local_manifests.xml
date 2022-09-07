@@ -11,7 +11,7 @@
         <project path="kernel/xiaomi/juice" name="darknius20/jasjus" remote="github" revision="nimf" clone-depth="1" />
 
         <!-- Pixel Launcher Mod -->
-        <project path="vendor/PixelLauncher" name="vendor_PixelLauncher" remote="darknius20" revision="12.1" />
+        <project path="vendor/PixelLauncher" name="vendor_PixelLauncher" remote="darknius20" revision="12.1" clone-depth="1" />
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r458507" name="clang-r458507" remote="OhMyVenyx" revision="master" clone-depth="1" />
