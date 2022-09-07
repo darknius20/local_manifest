@@ -6,7 +6,6 @@
         <remote name="OhMyVenyx" fetch="https://gitlab.com/OhMyVenyx" />
         
         <!-- remove -->
-        <remove-project name="RiceDroid/android_vendor_rice" />
         <remove-project name="RiceDroid/android_frameworks_base" />
         <remove-project name="RiceDroid/android_packages_apps_RiceDroidSettings" />
         
@@ -16,7 +15,6 @@
         <project path="kernel/xiaomi/juice" name="darknius20/jasjus" remote="github" revision="nimf" clone-depth="1" />
         
         <!-- Fork2 -->
-        <project path="vendor/lineage" name="rice-vendor" remote="darknius20" revision="twelve" clone-depth="1" />
         <project path="frameworks/base" name="rice-fwb" remote="darknius20" revision="omni" clone-depth="1" />
         <project path="packages/apps/crDroidSettings" name="android_packages_apps_RiceDroidSettings" remote="darknius20" revision="twelve" clone-depth="1" />
         
