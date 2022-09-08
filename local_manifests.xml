@@ -5,10 +5,16 @@
         <remote name="darknius20" fetch="https://github.com/darknius20" />
         <remote name="OhMyVenyx" fetch="https://gitlab.com/OhMyVenyx" />
         
+        <!-- remove -->
+        <remove-project name="android_system_core" />
+        
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="darknius20/devise" remote="github" revision="omni" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="darknius20/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="darknius20/jasjus" remote="github" revision="nimf" clone-depth="1" />
+        
+        <!-- Fork2 -->
+        <project path="system/core" name="android_system_core_omni" remote="darknius20" revision="android-12.1" clone-depth="1" />
         
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r458507" name="clang-r458507" remote="OhMyVenyx" revision="master" clone-depth="1" />
